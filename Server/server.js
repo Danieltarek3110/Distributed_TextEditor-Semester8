@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
 
-mongoose.connect("mongodb://localhost/asu_docs", {
+mongoose.connect("mongodb://localhost/new_database", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
